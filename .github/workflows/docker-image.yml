@@ -41,5 +41,5 @@ jobs:
         platforms: linux/amd64,linux/arm64
         push: true
         tags: |
-          ${{ env.REGISTRY }}/mrtalon63/${{ env.IMAGE }}:latest
-          ${{ env.REGISTRY }}/mrtalon63/${{ env.IMAGE }}:${{ github.RUN_ID }}
+          ${{ env.REGISTRY }}/mtalon63/${{ env.IMAGE }}:latest
+          ${{ env.REGISTRY }}/mtalon63/${{ env.IMAGE }}:${{ github.RUN_ID }}
